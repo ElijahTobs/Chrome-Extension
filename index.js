@@ -7,13 +7,17 @@ const ulEl = document.getElementById("ul-el")
 inputBtn.addEventListener("click", function() {
   myLeads.push(inputEl.value)
   renderLeads()
+  inputEl.value = ""
 })
 
 
 function renderLeads() {
   let listItems = ""
   for (let x in myLeads){
-    listItems += "<li>" + myLeads[x] + "</li>"
+    listItems += `
+      <li>
+        <a target="_blank" href="https://${myLeads[x]}"> ${myLeads[x]}
+      </li>`
   }
 
   ulEl.innerHTML = listItems
