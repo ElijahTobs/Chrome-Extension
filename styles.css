@@ -8,6 +8,7 @@ body {
 .container {
   width: 400px;
   margin: 0 auto;
+  border: 2px solid red;
 }
 
 input {
@@ -25,6 +26,12 @@ button {
   border: none;
   font-weight: bold;
   cursor: pointer;
+  border: 1px solid #5F9341;
+}
+
+#delete-btn {
+  background-color: #fff;
+  color: #5F9341;
 }
 
 a {
