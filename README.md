@@ -4,7 +4,7 @@
 
 ## Description
 
-![image](screenshot.png)
+![image](img/screenshot.png)
 
 > This simple Leads Tracker Chrome Extension is used to generate leads by getting and saving to your local storage the current tab you're on.
 It has three buttons.
@@ -23,10 +23,16 @@ It has three buttons.
 - CSS
 - JavaScript
 
-## Get Started
+## Usage
 
 To get a local copy up and running follow these simple example steps.
 
+1. Download the Zip file on github
+``` https://github.com/ElijahTobs/Chrome-Extension ```
+2. Extract all files
+3. Open ```chrome://extensions/``` in your chrome browser and toggle on the developer mode at the top right corner
+4. Click ```Load unpacked``` at the top left corner and select the folder that directly contains the files for this project.
+5. Open up any tab and start using the extension 🫶
 
 
 ## Test
